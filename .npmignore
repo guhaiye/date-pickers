@@ -1,0 +1,8 @@
+.*
+*.md
+*.yml
+# src/
+node_modules/
+index.html
+webpack.config.js
+*.tgz

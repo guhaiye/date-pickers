@@ -1,17 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <DatePickers
+          name="declareDate"
+          type="monthrange"
+          placeholder="请选择期间"
+          style="width: 100%"
+          format="yyyy-MM"
+          :clearable = "false"
+      />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import DatePickers from './components'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    DatePickers
   }
 }
 </script>
